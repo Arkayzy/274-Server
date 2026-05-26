@@ -24,7 +24,7 @@ You can press `ctrl + c` to cancel/quit out of a terminal process.
 ## Dependencies
 
 - Git CLI - Windows users: [git-scm](https://git-scm.com/)
-- [NodeJS 24+](https://nodejs.org/) or [Bun 1.3+](https://bun.sh)
+- [NodeJS 24+](https://nodejs.org/)
 
 > [!TIP]
 > If you're using VS Code (recommended), [we have an extension to install on the marketplace.](https://marketplace.visualstudio.com/items?itemName=2004scape.runescriptlanguage)

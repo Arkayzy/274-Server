@@ -6,32 +6,11 @@ if errorlevel 1 (
     exit /b
 )
 
-where /q bun
+where /q npm
 if errorlevel 1 (
-    where /q node
-    if errorlevel 0 (
-        npm i -g bun
-    )
-
-    where /q bun
-    if errorlevel 1 (
-        echo You must install Bun to proceed: https://bun.sh
-        exit /b
-    )
+    echo You must install Node.js to proceed: https://nodejs.org
+    exit /b
 )
 
-@REM where /q java
-@REM if errorlevel 1 (
-@REM     echo You must install Java 17 or newer to proceed: https://adoptium.net/
-@REM     exit /b
-@REM )
-
-@REM for /f tokens^=2-5^ delims^=.-_^" %%j in ('java -fullversion 2^>^&1') do set "jver=%%j%%k%"
-@REM if %jver% lss 170 (
-@REM     echo You must install Java 17 or newer to proceed: https://adoptium.net/
-@REM     echo And it must be your primary Java version!
-@REM     exit /b
-@REM )
-
-bun install
-bun run start.ts
+npm install
+node start.js

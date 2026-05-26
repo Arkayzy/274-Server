@@ -1,8 +1,10 @@
-import child_process from 'child_process';
-import fs from 'fs';
+'use strict';
 
-import { ExitPromptError } from '@inquirer/core';
-import { confirm, input, number, password, select } from '@inquirer/prompts';
+const child_process = require('child_process');
+const fs = require('fs');
+
+const { ExitPromptError } = require('@inquirer/core');
+const { select } = require('@inquirer/prompts');
 
 // if you're forking this feel free to change these :) it does make some assumptions elsewhere (branch names)
 const repoOrg = 'https://github.com/LostCityRS';
@@ -11,20 +13,20 @@ const contentRepo = 'Content';
 const webRepo = 'Client-TS';
 const javaRepo = 'Client-Java';
 
-function cloneRepo(repo: string, dir: string, branch: string) {
+function cloneRepo(repo, dir, branch) {
     child_process.execSync(`git clone ${repoOrg}/${repo} --single-branch -b ${branch} ${dir}`, {
         stdio: 'inherit'
     });
 }
 
-function updateRepo(cwd: string) {
+function updateRepo(cwd) {
     child_process.execSync('git pull', {
         stdio: 'inherit',
         cwd
     });
 }
 
-function runOnOs(exec: string, cwd?: string) {
+function runOnOs(exec, cwd) {
     const start = (process.platform == 'darwin' ? 'open' : process.platform == 'win32' ? 'start' : 'xdg-open');
 
     child_process.execSync(`${start} ${exec}`, {
@@ -37,14 +39,7 @@ let config = {
     rev: 'unset'
 };
 
-type RevInfo = {
-    description: string;
-    webclient?: boolean;
-    wip?: boolean;
-    clientBranch?: string;
-}
-
-const revInfo: Record<string, RevInfo> = {
+const revInfo = {
     '225': {
         description: 'May 18, 2004',
         webclient: true
@@ -293,18 +288,22 @@ async function promptAdvanced() {
     }
 }
 
-try {
-    while (running) {
-        await main();
-    }
-} catch (e) {
-    if (e instanceof ExitPromptError) {
-        process.exit(0);
-    } else if (e instanceof Error) {
-        if (e.message.startsWith('Command failed:')) {
-            process.exit(0);
+async function run() {
+    try {
+        while (running) {
+            await main();
         }
+    } catch (e) {
+        if (e instanceof ExitPromptError) {
+            process.exit(0);
+        } else if (e instanceof Error) {
+            if (e.message.startsWith('Command failed:')) {
+                process.exit(0);
+            }
 
-        console.log(e.message);
+            console.log(e.message);
+        }
     }
 }
+
+run();

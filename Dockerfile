@@ -1,17 +1,17 @@
-FROM oven/bun:debian
+FROM node:lts-slim
 
 RUN apt update \
-  && apt install -y --no-install-recommends default-jdk git ca-certificates bash \
+  && apt install -y --no-install-recommends git ca-certificates bash \
   && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /opt/server
 COPY . .
 
-RUN chown -R bun:bun /opt/server
+RUN chown -R node:node /opt/server
 
-USER bun
+USER node
 
-RUN bun install
+RUN npm install
 
 EXPOSE 8888/tcp
 ENTRYPOINT ["/opt/server/start.sh"]
