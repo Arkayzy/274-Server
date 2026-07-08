@@ -60,6 +60,11 @@ const revInfo = {
         description: 'November 23, 2004',
         webclient: true
     },
+    '289': {
+        description: 'January 17, 2005',
+        wip: true,
+        webclient: true
+    },
     '377-wip': {
         description: 'May 5, 2006',
         wip: true,
