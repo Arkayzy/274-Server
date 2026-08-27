@@ -12,5 +12,5 @@ if errorlevel 1 (
     exit /b
 )
 
-npm install
+call npm install
 node start.js
