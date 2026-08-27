@@ -84,6 +84,9 @@ for (let i = 0; i < 99; i++) {
     levelExperience[i] = Math.floor(acc / 4) * 10;
 }
 
+console.log('Level 2 threshold:', levelExperience[0]);
+console.log('Level 2 displayed XP:', levelExperience[0] / 10);
+
 export function getLevelByExp(exp: number) {
     for (let i = 98; i >= 0; i--) {
         if (exp >= levelExperience[i]) {
