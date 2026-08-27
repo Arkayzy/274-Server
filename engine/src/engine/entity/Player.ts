@@ -78,7 +78,8 @@ const levelExperience = new Int32Array(99);
 let acc = 0;
 for (let i = 0; i < 99; i++) {
     const level = i + 1;
-    const delta = Math.floor(level + Math.pow(2.0, level * 100 / 8.0) * 300.0);
+    // This is not the default curve
+    const delta = Math.floor(level + Math.pow(2.0, 0.30 + level / 8.2) * 300.0);
     acc += delta;
     levelExperience[i] = Math.floor(acc / 4) * 10;
 }
