@@ -1,0 +1,143 @@
+[boardgames_runelink_firerune]
+name=Board game piece
+desc=A piece used in board games.
+model=inv_firerune
+2dyof=1
+2dzoom=740
+2dxan=516
+members=yes
+category=boardgames_piece
+tradeable=no
+dummyitem=inv_only
+
+[boardgames_runelink_waterrune]
+name=Board game piece
+desc=A piece used in board games.
+model=inv_waterrune
+2dyof=1
+2dzoom=740
+2dxan=516
+members=yes
+category=boardgames_piece
+tradeable=no
+dummyitem=inv_only
+
+[boardgames_runelink_earthrune]
+name=Board game piece
+desc=A piece used in board games.
+model=inv_earthrune
+2dyof=1
+2dzoom=740
+2dxan=516
+members=yes
+category=boardgames_piece
+tradeable=no
+dummyitem=inv_only
+
+[boardgames_runelink_airrune]
+name=Board game piece
+desc=A piece used in board games.
+model=inv_airrune
+2dyof=1
+2dzoom=740
+2dxan=516
+members=yes
+category=boardgames_piece
+tradeable=no
+dummyitem=inv_only
+
+[boardgames_runelink_mindrune]
+name=Board game piece
+desc=A piece used in board games.
+model=inv_mindrune
+2dyof=1
+2dzoom=740
+2dxan=516
+members=yes
+category=boardgames_piece
+tradeable=no
+dummyitem=inv_only
+
+[boardgames_runelink_bodyrune]
+name=Board game piece
+desc=A piece used in board games.
+model=inv_bodyrune
+2dyof=1
+2dzoom=740
+2dxan=516
+members=yes
+category=boardgames_piece
+tradeable=no
+dummyitem=inv_only
+
+[boardgames_runelink_naturerune]
+name=Board game piece
+desc=A piece used in board games.
+model=inv_naturerune
+2dyof=1
+2dzoom=740
+2dxan=516
+members=yes
+category=boardgames_piece
+tradeable=no
+dummyitem=inv_only
+
+[boardgames_runelink_chaosrune]
+name=Board game piece
+desc=A piece used in board games.
+model=inv_chaosrune
+2dyof=1
+2dzoom=740
+2dxan=516
+members=yes
+category=boardgames_piece
+tradeable=no
+dummyitem=inv_only
+
+[boardgames_runelink_lawrune]
+name=Board game piece
+desc=A piece used in board games.
+model=inv_lawrune
+2dyof=1
+2dzoom=740
+2dxan=516
+members=yes
+category=boardgames_piece
+tradeable=no
+dummyitem=inv_only
+
+[boardgames_runelink_cosmicrune]
+name=Board game piece
+desc=A piece used in board games.
+model=inv_cosmicrune
+2dyof=1
+2dzoom=740
+2dxan=516
+members=yes
+category=boardgames_piece
+tradeable=no
+dummyitem=inv_only
+
+[boardgames_runelink_bloodrune]
+name=Board game piece
+desc=A piece used in board games.
+model=inv_bloodrune
+2dyof=1
+2dzoom=740
+2dxan=516
+members=yes
+category=boardgames_piece
+tradeable=no
+dummyitem=inv_only
+
+[boardgames_runelink_soulrune]
+name=Board game piece
+desc=A piece used in board games.
+model=inv_soulrune
+2dyof=1
+2dzoom=740
+2dxan=516
+members=yes
+category=boardgames_piece
+tradeable=no
+dummyitem=inv_only

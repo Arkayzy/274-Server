@@ -1,0 +1,32 @@
+[ernest]
+vislevel=hide
+name=Ernest
+desc=A former chicken.
+walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
+readyanim=human_ready
+recol1s=2340
+recol1d=8354
+recol2s=14724
+recol2d=11627
+recol3s=14801
+recol3d=24075
+model1=man_head_shorthair
+model2=man_jaw_none
+model3=man_torso_basic
+model4=man_arms_basic
+model5=man_hands_basic
+model6=man_legs_basic
+model7=man_feet_basic
+model8=man_torsoextra_jacket
+head1=chat_male_head_shorthair
+
+[questchicken]
+vislevel=hide
+name=Ernest
+desc=Yep, definitely a chicken.
+walkanim=chicken_walk
+readyanim=chicken_ready
+model1=model_2849_npc
+head1=chat_male_head_shorthair
+param=death_anim,chicken_death
+param=death_sound,chicken_death

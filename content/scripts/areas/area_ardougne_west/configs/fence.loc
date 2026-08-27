@@ -1,0 +1,5 @@
+[mournerstewfence]
+name=Fence
+model=fence_railing
+sharelight=yes
+op1=Climb-over

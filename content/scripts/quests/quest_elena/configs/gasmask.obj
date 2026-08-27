@@ -1,0 +1,21 @@
+[gasmask]
+members=yes
+cost=2
+model=inv_gasmask
+2dxof=-9
+2dyof=-7
+2dzoom=720
+2dyan=1676
+2dxan=208
+name=Gas mask
+desc=Stops me from breathing nasty stuff!
+iop2=Wear
+wearpos=hat
+wearpos2=head
+wearpos3=jaw
+manwear=man_head_gasmask,0
+womanwear=woman_head_gasmask,0
+manhead=chat_male_head_gasmask
+womanhead=chat_female_head_gasmask
+weight=9oz
+tradeable=no

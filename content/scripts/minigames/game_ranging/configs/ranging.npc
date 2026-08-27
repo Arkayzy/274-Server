@@ -1,0 +1,542 @@
+[ranging_guild_guard]
+name=Guard
+desc=Keeps order in the ranging guild.
+walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
+readyanim=human_ready
+op1=Talk-to
+op2=Attack
+vislevel=37
+recol1s=7330
+recol1d=23009
+model1=man_head_coif
+model2=man_feet_boots
+model3=man_jaw_short2
+model4=man_torso_leather_hard
+model5=man_arms_basic
+model6=man_hands_gloves
+model7=man_legs_chap
+model8=human_weapons_longbow
+head1=chat_male_head_bald
+head2=chat_male_jaw_short2
+head3=chat_male_model_32
+wanderrange=1
+maxrange=20
+attackrange=10
+respawnrate=50
+hitpoints=50
+attack=20
+strength=20
+defence=20
+ranged=40
+param=attackrate,6
+param=attackbonus,19
+param=strengthbonus,8
+param=rangebonus,8
+param=stabdefence,18
+param=slashdefence,23
+param=crushdefence,27
+param=magicdefence,10
+param=rangedefence,19
+param=damagetype,^crush_style
+param=attack_anim,human_bow
+param=defend_sound,null
+param=death_sound,null
+param=rangeattack_sound,arrowlaunch2
+param=proj_launch,iron_arrow_launch
+param=proj_travel,iron_arrow_travel
+// osrs stats and Vislvl match 1:1
+// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_6056
+// this npc havent any hit or death sounds...
+
+[ranging_guild_doorman]
+vislevel=hide
+name=Ranging Guild Doorman
+desc=The keeper of the gates to the ranging guild.
+walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
+readyanim=human_ready
+op1=Talk-to
+recol1s=7330
+recol1d=23009
+model1=man_head_coif
+model2=man_feet_boots
+model3=man_jaw_short2
+model4=man_torso_leather_hard
+model5=man_arms_basic
+model6=man_hands_gloves
+model7=man_legs_chap
+model8=human_weapons_longbow
+head1=chat_male_head_bald
+head2=chat_male_jaw_short2
+head3=chat_male_model_32
+wanderrange=1
+hitpoints=50
+attack=20
+strength=20
+defence=40
+// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_6057
+
+[ranging_guild_leatherworker]
+vislevel=hide
+name=Leatherworker
+desc=An expert leatherworker.
+walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
+readyanim=human_ready
+op1=Talk-to
+recol1s=6273
+recol1d=23009
+recol2s=14724
+recol2d=19713
+recol3s=2340
+recol3d=9518
+recol4s=6273
+recol4d=10570
+recol5s=14801
+recol5d=7364
+model1=woman_head_coif
+model2=woman_feet_elfboots
+model3=man_torso_halfleather
+model4=woman_arms_basic
+model5=woman_hands_basic
+model6=woman_legs_plaguesuit
+model7=woman_torsoextra_cloak_plain
+model8=woman_necklaces_basic
+head1=chat_female_head_bald
+head2=chat_female_model_90
+wanderrange=2
+
+[ranging_guild_poison_salesman]
+vislevel=hide
+name=Weapon poison salesman
+desc=Supplier of deadly liquids.
+walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
+readyanim=human_ready
+op1=Talk-to
+recol1s=6273
+recol1d=23009
+recol2s=14724
+recol2d=5250
+model1=man_head_rangershood
+model2=man_feet_boots
+model3=man_jaw_moustache
+model4=man_torso_leather_dragonhide
+model5=man_arms_longsleeves
+model6=man_hands_gloves
+model7=man_legs_chap
+head1=chat_male_head_model_58
+head2=chat_male_jaw_moustache
+
+[ranging_guild_armour_salesman]
+vislevel=hide
+name=Armour salesman
+desc=Supplier of Rangers armour.
+walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
+readyanim=human_ready
+op1=Talk-to
+op3=Trade
+recol1s=7330
+recol1d=23009
+recol2s=289
+recol2d=10240
+recol3s=6273
+recol3d=15649
+recol4s=2340
+recol4d=10240
+recol5s=14724
+recol5d=10240
+model1=man_head_rangershood
+model2=man_feet_boots
+model3=man_jaw_none
+model4=man_torso_leather_studded
+model5=man_arms_buff
+model6=man_legs_chap
+model7=man_hands_gloves
+head1=chat_male_head_model_58
+wanderrange=2
+category=shop_keeper
+param=owned_shop,ranging_guild_armourshop
+param=shop_sell_multiplier,1000
+param=shop_buy_multiplier,500
+param=shop_delta,10
+param=shop_title,Aaron's Archery Appendages.
+
+[ranging_guild_bow_salesman]
+vislevel=hide
+name=Bow and Arrow salesman
+desc=Supplier of Archery equipment.
+walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
+readyanim=human_ready
+op1=Talk-to
+op3=Trade
+recol1s=14724
+recol1d=2340
+model1=man_head_coif
+model2=man_feet_boots
+model3=man_jaw_short2
+model4=man_torso_leather_hard
+model5=man_arms_basic
+model6=man_hands_gloves
+model7=man_legs_chap
+model8=man_torsoextra_cloak_plain
+head1=chat_male_head_bald
+head2=chat_male_model_32
+wanderrange=2
+category=shop_keeper
+param=owned_shop,ranging_guild_bowshop
+param=shop_sell_multiplier,1000
+param=shop_buy_multiplier,500
+param=shop_delta,10
+param=shop_title,Dargaud's Bow and Arrows.
+
+[ranging_advisor1]
+vislevel=hide
+name=Tower Advisor
+desc=Tower keeper and competition judge.
+walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
+readyanim=human_ready
+op1=Talk-to
+model1=man_head_hood2
+model2=man_feet_boots
+model3=man_jaw_short2
+model4=man_torso_leather_hard
+model5=man_arms_basic
+model6=man_hands_gloves
+model7=man_legs_chap
+model8=human_weapons_longbow
+model9=man_torsoextra_cloak_plain
+head1=chat_male_head_model_48
+head2=chat_male_jaw_short2
+wanderrange=0
+moverestrict=nomove
+category=tower_advisor
+
+[ranging_advisor2]
+vislevel=hide
+name=Tower Advisor
+desc=Tower keeper and competition judge.
+walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
+readyanim=human_ready
+op1=Talk-to
+model1=man_head_hood2
+model2=man_feet_boots
+model3=man_jaw_short2
+model4=man_torso_leather_hard
+model5=man_arms_basic
+model6=man_hands_gloves
+model7=man_legs_chap
+model8=human_weapons_longbow
+model9=man_torsoextra_cloak_plain
+head1=chat_male_head_model_48
+head2=chat_male_jaw_short2
+wanderrange=0
+moverestrict=nomove
+category=tower_advisor
+
+[ranging_advisor3]
+vislevel=hide
+name=Tower Advisor
+desc=Tower keeper and competition judge.
+walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
+readyanim=human_ready
+op1=Talk-to
+model1=man_head_hood2
+model2=man_feet_boots
+model3=man_jaw_short2
+model4=man_torso_leather_hard
+model5=man_arms_basic
+model6=man_hands_gloves
+model7=man_legs_chap
+model8=human_weapons_longbow
+model9=man_torsoextra_cloak_plain
+head1=chat_male_head_model_48
+head2=chat_male_jaw_short2
+wanderrange=0
+moverestrict=nomove
+category=tower_advisor
+
+[ranging_advisor4]
+vislevel=hide
+name=Tower Advisor
+desc=Tower keeper and competition judge.
+walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
+readyanim=human_ready
+op1=Talk-to
+model1=man_head_hood2
+model2=man_feet_boots
+model3=man_jaw_short2
+model4=man_torso_leather_hard
+model5=man_arms_basic
+model6=man_hands_gloves
+model7=man_legs_chap
+model8=human_weapons_longbow
+model9=man_torsoextra_cloak_plain
+head1=chat_male_head_model_48
+head2=chat_male_jaw_short2
+wanderrange=0
+moverestrict=nomove
+category=tower_advisor
+
+[guild_towerarcher1]
+name=Tower Archer
+desc=Defender of the north tower.
+walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
+readyanim=human_ready
+op2=Attack
+vislevel=19
+recol1s=7330
+recol1d=23009
+recol2s=11630
+recol2d=7363
+recol3s=14801
+recol3d=7364
+model1=man_head_coif
+model2=man_jaw_short2
+model3=man_torso_leather
+model4=man_arms_leather
+model5=man_hands_basic
+model6=man_legs_chap
+model7=man_feet_boots
+model8=human_weapons_longbow
+wanderrange=1
+maxrange=11
+attackrange=11
+hitpoints=30
+attack=10
+strength=10
+defence=10
+ranged=20
+param=attackrate,6
+param=rangebonus,16
+param=magicdefence,6
+param=rangedefence,12
+param=damagetype,^crush_style
+param=attack_anim,human_bow
+param=defend_sound,null
+param=death_sound,null
+param=rangeattack_sound,arrowlaunch2
+param=proj_launch,iron_arrow_launch
+param=proj_travel,iron_arrow_travel
+param=npc_ammo,iron_arrow
+huntmode=aggressive_ranged
+// https://oldschool.runescape.wiki/w/Tower_Archer
+huntrange=11
+// osrs stats and Vislvl match 1:1
+// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_6065
+// this npc havent any hit or death sounds...
+
+[guild_towerarcher2]
+name=Tower Archer
+desc=Defender of the east tower.
+walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
+readyanim=human_ready
+op2=Attack
+vislevel=34
+recol1s=7330
+recol1d=20004
+recol2s=14801
+recol2d=7364
+model1=man_head_coif
+model2=man_jaw_short2
+model3=man_torso_leather_hard
+model4=man_arms_leather
+model5=man_hands_basic
+model6=man_legs_chap
+model7=man_feet_boots
+model8=human_weapons_longbow
+wanderrange=1
+maxrange=11
+attackrange=11
+hitpoints=50
+attack=10
+strength=10
+defence=10
+ranged=40
+param=attackrate,6
+param=rangebonus,22
+param=magicdefence,24
+param=rangedefence,40
+param=damagetype,^crush_style
+param=attack_anim,human_bow
+param=defend_sound,null
+param=death_sound,null
+param=rangeattack_sound,arrowlaunch2
+param=proj_launch,steel_arrow_launch
+param=proj_travel,steel_arrow_travel
+param=npc_ammo,steel_arrow
+huntmode=aggressive_ranged
+// https://oldschool.runescape.wiki/w/Tower_Archer
+huntrange=11
+// osrs stats and Vislvl match 1:1
+// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_6065
+// this npc havent any hit or death sounds...
+
+[guild_towerarcher3]
+name=Tower Archer
+desc=Defender of the south tower.
+walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
+readyanim=human_ready
+op2=Attack
+vislevel=49
+recol1s=7330
+recol1d=21040
+recol2s=14801
+recol2d=256
+model1=man_head_coif
+model2=man_jaw_short2
+model3=man_torso_leather_studded
+model4=man_arms_leather
+model5=man_hands_basic
+model6=man_legs_chap_studded
+model7=man_feet_boots
+model8=human_weapons_longbow
+wanderrange=1
+maxrange=11
+attackrange=11
+hitpoints=70
+attack=10
+strength=10
+defence=10
+ranged=60
+param=attackrate,6
+param=rangebonus,31
+param=magicdefence,20
+param=rangedefence,45
+param=damagetype,^crush_style
+param=attack_anim,human_bow
+param=defend_sound,null
+param=death_sound,null
+param=rangeattack_sound,arrowlaunch2
+param=proj_launch,mithril_arrow_launch
+param=proj_travel,mithril_arrow_travel
+param=npc_ammo,mithril_arrow
+huntmode=aggressive_ranged
+// https://oldschool.runescape.wiki/w/Tower_Archer
+huntrange=11
+// osrs stats and Vislvl match 1:1
+// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_6067
+// this npc havent any hit or death sounds...
+
+[guild_towerarcher4]
+name=Tower Archer
+desc=Defender of the west tower.
+walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
+readyanim=human_ready
+op2=Attack
+vislevel=64
+recol1s=7330
+recol1d=23073
+recol2s=14801
+recol2d=256
+model1=man_head_coif
+model2=man_jaw_short2
+model3=man_torso_leather_dragonhide
+model4=man_arms_leather
+model5=man_hands_basic
+model6=man_legs_chap_dragonhide
+model7=man_feet_boots
+model8=human_weapons_longbow
+wanderrange=1
+maxrange=11
+attackrange=11
+hitpoints=90
+attack=10
+strength=10
+defence=10
+ranged=80
+param=attackrate,6
+param=rangebonus,49
+param=magicdefence,34
+param=rangedefence,66
+param=damagetype,^crush_style
+param=attack_anim,human_bow
+param=defend_sound,null
+param=death_sound,null
+param=rangeattack_sound,arrowlaunch2
+param=proj_launch,adamant_arrow_launch
+param=proj_travel,adamant_arrow_travel
+param=npc_ammo,adamant_arrow
+huntmode=aggressive_ranged
+// https://oldschool.runescape.wiki/w/Tower_Archer
+huntrange=11
+// osrs stats and Vislvl match 1:1
+// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_6068
+// this npc havent any hit or death sounds...
+
+[ranging_guild_tribal_salesman]
+vislevel=hide
+name=Tribal Weapon Salesman
+desc=Supplier of authentic throwing weapons.
+walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
+readyanim=human_ready
+op1=Talk-to
+op3=Trade
+recol1s=24075
+recol1d=9410
+recol2s=14801
+recol2d=9410
+model1=man_head_tribal
+model2=man_feet_basic
+model3=man_jaw_none
+model4=man_torso_bare
+model5=man_arms_bare
+model6=man_hands_basic
+model7=man_legs_bare
+model8=man_torsoextra_cloak
+model9=man_hat_headband
+head1=chat_male_head_model_64
+head2=chat_male_headband
+category=shop_keeper
+param=owned_shop,ranging_guild_tribalshop
+param=shop_sell_multiplier,1300
+param=shop_buy_multiplier,500
+param=shop_delta,10
+param=shop_title,Authentic throwing weapons.
+// https://web.archive.org/web/20060521172929/http://runehq.com/images/otherguides/Throwing_weapons.jpg (Authentic throwing weapons.)
+
+[ranging_guild_competition_judge]
+vislevel=hide
+name=Competition Judge
+desc=Overseer of the Archery competition.
+walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
+readyanim=human_ready
+op1=Talk-to
+recol1s=7330
+recol1d=23009
+model1=man_head_coif
+model2=man_feet_boots
+model3=man_jaw_short2
+model4=man_torso_leather_hard
+model5=man_arms_basic
+model6=man_hands_gloves
+model7=man_legs_chap
+model8=human_weapons_longbow
+head1=chat_male_head_bald
+head2=chat_male_jaw_short2
+head3=chat_male_model_32
+wanderrange=1
+
+[ranging_guild_ticket_exchange]
+vislevel=hide
+name=Ticket Merchant
+desc=Exchanges your tickets for equipment.
+walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
+readyanim=human_ready
+op1=Talk-to
+recol1s=7330
+recol1d=23009
+recol2s=289
+recol2d=10240
+recol3s=6273
+recol3d=15649
+recol4s=2340
+recol4d=10240
+recol5s=14724
+recol5d=10240
+model1=man_head_rangershood
+model2=man_feet_boots
+model3=man_jaw_none
+model4=man_torso_leather_studded
+model5=man_arms_buff
+model6=man_legs_chap
+model7=man_hands_gloves
+head1=chat_male_head_model_58
+wanderrange=3

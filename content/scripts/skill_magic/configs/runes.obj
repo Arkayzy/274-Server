@@ -1,0 +1,163 @@
+[firerune]
+name=Fire rune
+desc=One of the 4 basic elemental Runes.
+stackable=yes
+cost=4
+model=inv_firerune
+2dyof=1
+2dzoom=740
+2dxan=516
+weight=2g
+category=category_149
+respawnrate=100
+
+[waterrune]
+name=Water rune
+desc=One of the 4 basic elemental Runes.
+stackable=yes
+cost=4
+model=inv_waterrune
+2dyof=1
+2dzoom=740
+2dxan=516
+weight=2g
+category=category_149
+
+[airrune]
+name=Air rune
+desc=One of the 4 basic elemental Runes.
+stackable=yes
+cost=4
+model=inv_airrune
+2dyof=1
+2dzoom=740
+2dxan=516
+weight=2g
+category=category_149
+
+[earthrune]
+name=Earth rune
+desc=One of the 4 basic elemental Runes.
+stackable=yes
+cost=4
+model=inv_earthrune
+2dyof=1
+2dzoom=740
+2dxan=516
+weight=2g
+category=category_149
+
+[mindrune]
+name=Mind rune
+desc=Used for low level missile spells.
+stackable=yes
+cost=3
+model=inv_mindrune
+2dyof=1
+2dzoom=740
+2dxan=516
+weight=2g
+category=category_149
+
+[bodyrune]
+name=Body rune
+desc=Used for curse spells.
+stackable=yes
+cost=3
+model=inv_bodyrune
+2dyof=1
+2dzoom=740
+2dxan=516
+weight=2g
+category=category_149
+
+[deathrune]
+name=Death rune
+desc=Used for medium level missile spells.
+stackable=yes
+cost=30
+model=inv_deathrune
+2dyof=1
+2dzoom=740
+2dxan=516
+weight=2g
+respawnrate=200
+category=category_149
+
+[naturerune]
+name=Nature rune
+desc=Used for alchemy spells.
+stackable=yes
+cost=20
+model=inv_naturerune
+2dyof=1
+2dzoom=740
+2dxan=516
+weight=2g
+respawnrate=200
+category=category_149
+
+[chaosrune]
+name=Chaos rune
+desc=Used for mid level missile spells.
+stackable=yes
+cost=15
+model=inv_chaosrune
+2dyof=1
+2dzoom=740
+2dxan=516
+weight=2g
+respawnrate=200
+category=category_149
+
+[lawrune]
+name=Law rune
+desc=Used for teleport spells.
+stackable=yes
+cost=40
+model=inv_lawrune
+2dyof=1
+2dzoom=740
+2dxan=516
+weight=2g
+category=category_149
+
+[cosmicrune]
+name=Cosmic rune
+desc=Used for enchant spells.
+stackable=yes
+cost=15
+model=inv_cosmicrune
+2dyof=1
+2dzoom=740
+2dxan=516
+weight=2g
+respawnrate=200
+category=category_149
+
+[bloodrune]
+name=Blood rune
+desc=Used for high level missile spells.
+stackable=yes
+cost=50
+model=inv_bloodrune
+2dyof=1
+2dzoom=740
+2dxan=516
+members=yes
+weight=2g
+respawnrate=200
+category=category_149
+
+[soulrune]
+name=Soul rune
+desc=Used for high level curse spells.
+stackable=yes
+cost=1250
+model=inv_soulrune
+2dyof=1
+2dzoom=740
+2dxan=516
+members=yes
+weight=2g
+category=category_149

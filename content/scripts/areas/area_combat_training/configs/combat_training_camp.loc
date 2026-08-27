@@ -1,0 +1,30 @@
+[biohazarddummy]
+name=Dummy
+desc=I've met less intelligent conversationalists.
+model=furniture_sworddummy
+op1=Hit
+forceapproach=south
+
+[lathastraining_gatel]
+name=Gate
+desc=It's closed.
+model=outdoorfurniture_metalgateclosedl
+op1=Open
+category=double_door_open_and_close_left
+param=next_loc_stage,lathastraining_gatelopen
+
+[lathastraining_gatelopen]
+model=outdoorfurniture_metalgateclosedl
+
+[lathastraining_gater]
+name=Gate
+desc=It's closed.
+model=outdoorfurniture_metalgateclosedl
+op1=Open
+mirror=yes
+category=double_door_open_and_close_right
+param=next_loc_stage,lathastraining_gateropen
+
+[lathastraining_gateropen]
+model=outdoorfurniture_metalgateclosedl
+mirror=yes

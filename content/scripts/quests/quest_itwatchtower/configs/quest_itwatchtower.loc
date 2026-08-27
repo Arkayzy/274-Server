@@ -1,0 +1,380 @@
+[blacksmithtools]
+name=Blacksmith's tools
+desc=Various implements for working with metal.
+model=walldecor_blacksmithtools
+active=yes
+
+[ogreguardgate1]
+name=City gate
+desc=An entrance to Gu'Tanoth.
+model=outdoorfurniture_metalgateclosedl
+op1=Open
+active=yes
+category=double_door_open_and_close_left
+param=next_loc_stage,loc_1562
+
+[ogreguardgate1right]
+name=City gate
+desc=An entrance to Gu'Tanoth.
+model=outdoorfurniture_metalgateclosedl
+op1=Open
+active=yes
+mirror=yes
+category=double_door_open_and_close_right
+param=next_loc_stage,loc_1563
+
+[ogreguardgate2]
+name=City gate
+desc=An entrance to Gu'Tanoth.
+model=outdoorfurniture_metalgateclosedl
+op1=Open
+active=yes
+category=double_door_open_and_close_left
+param=next_loc_stage,loc_1562
+
+[ogreguardgate2right]
+name=City gate
+desc=An entrance to Gu'Tanoth.
+model=outdoorfurniture_metalgateclosedl
+op1=Open
+active=yes
+mirror=yes
+category=double_door_open_and_close_right
+param=next_loc_stage,loc_1563
+
+[tobanchest]
+name=Chest
+desc=I wonder what's inside it.
+model=furniture_chestclosed
+active=yes
+op1=Open
+forceapproach=north
+
+[empty_rock_cake_counter]
+name=Counter
+desc=A counter made from a stone block.
+model=cave_loc_2791
+width=2
+active=yes
+op1=Steal-From
+
+[rockcounter_withcakes]
+name=Counter
+desc=An ogre is selling cakes here.
+model=cave_loc_2793
+width=2
+active=yes
+op1=Steal-From
+
+[watchleverup]
+name=Lever
+desc=A lever for activating something.
+model=walldecor_leverup_q
+op1=Pull
+active=yes
+
+[watchleverdown]
+name=Lever
+desc=A lever for activating something.
+model=walldecor_leverdown_q
+op1=Pull
+active=yes
+
+[watchladderup]
+name=Ladder
+desc=This leads to the watchtower.
+model=furniture_ladder
+op1=Climb-up
+
+[watchladderdown]
+name=Ladder
+desc=This leads downwards.
+model=furniture_ladderdown
+op1=Climb-down
+
+[watchtowerbush]
+name=Bush
+desc=A leafy bush.
+model=plants_bush1
+op1=Search
+mapscene=9
+
+[watchtowerbushnail]
+name=Bush
+desc=A leafy bush.
+model=plants_bush1
+op1=Search
+mapscene=9
+
+[watchtowerbushdagger]
+name=Bush
+desc=A leafy bush.
+model=plants_bush1
+op1=Search
+mapscene=9
+
+[watchtowerbusheyepatch]
+name=Bush
+desc=A leafy bush.
+model=plants_bush1
+op1=Search
+mapscene=9
+
+[watchtowerbushrobe]
+name=Bush
+desc=A leafy bush.
+model=plants_bush1
+op1=Search
+mapscene=9
+
+[watchtowerbusharmour]
+name=Bush
+desc=A leafy bush.
+model=plants_bush1
+op1=Search
+mapscene=9
+
+[shamanentrance]
+name=Cave entrance
+desc=I think I can squeeze through here...
+model=cave_entrance3
+width=4
+length=2
+op1=Enter
+active=yes
+
+[skavid_cave1]
+name=Cave entrance
+desc=I think I can squeeze through here...
+model=cave_entrance3
+width=4
+length=2
+op1=Enter
+
+[skavid_cave2]
+name=Cave entrance
+desc=I think I can squeeze through here...
+model=cave_entrance3
+width=4
+length=2
+op1=Enter
+
+[skavid_cave3]
+name=Cave entrance
+desc=I think I can squeeze through here...
+model=cave_entrance3
+width=4
+length=2
+op1=Enter
+
+[skavid_cave4]
+name=Cave entrance
+desc=I think I can squeeze through here...
+model=cave_entrance3
+width=4
+length=2
+op1=Enter
+
+[skavid_cave5]
+name=Cave entrance
+desc=I think I can squeeze through here...
+model=cave_entrance3
+width=4
+length=2
+op1=Enter
+
+[skavid_cave6]
+name=Cave entrance
+desc=I think I can squeeze through here...
+model=cave_entrance3
+width=4
+length=2
+op1=Enter
+
+[tobancave]
+name=Cave entrance
+desc=I think I can squeeze through here...
+model=cave_entrance3
+width=4
+length=2
+op1=Enter
+
+[tobanladderdown]
+name=Ladder
+desc=This leads downwards.
+model=furniture_dungeonladder
+op1=Climb-down
+
+[enclavecave]
+name=Cave entrance
+desc=I think I can squeeze through here...
+model=cave_entrance3
+width=4
+length=2
+op1=Enter
+
+[shamangate]
+name=Gate
+desc=The gate has been locked shut.
+model=outdoorfurniture_metalgateclosedl
+op1=Open
+
+[shamangate2]
+name=Gate
+desc=The gate has been locked shut.
+model=outdoorfurniture_metalgateclosedl
+op1=Open
+mirror=yes
+
+[rock_of_dalgroth]
+name=Rock of Dalgroth
+desc=A strange looking rock...
+model=quest_loc_2816
+width=2
+length=2
+mapscene=11
+op1=Prospect
+op2=Mine
+
+[cave1exit]
+name=Cave exit
+desc=I think I can get out here...
+model=cavern_loc_727
+sharelight=yes
+op1=Leave
+hillskew=yes
+recol1s=3171
+recol1d=7366
+
+[cave2exit]
+name=Cave exit
+desc=I think I can get out here...
+model=cavern_loc_727
+sharelight=yes
+op1=Leave
+hillskew=yes
+recol1s=3171
+recol1d=7366
+
+[cave3exit]
+name=Cave exit
+desc=I think I can get out here...
+model=cavern_loc_727
+sharelight=yes
+op1=Leave
+hillskew=yes
+recol1s=3171
+recol1d=7366
+
+[cave4exit]
+name=Cave exit
+desc=I think I can get out here...
+model=cavern_loc_727
+sharelight=yes
+op1=Leave
+hillskew=yes
+recol1s=3171
+recol1d=7366
+
+[cave5exit]
+name=Cave exit
+desc=I think I can get out here...
+model=cavern_loc_727
+sharelight=yes
+op1=Leave
+hillskew=yes
+recol1s=3171
+recol1d=7366
+
+[cave6exit]
+name=Cave exit
+desc=I think I can get out here...
+model=cavern_loc_727
+sharelight=yes
+op1=Leave
+hillskew=yes
+recol1s=3171
+recol1d=7366
+
+[yanilleholein]
+name=Hole
+desc=A hole.
+model=outdoorfurniture_hole
+op1=Climb-down
+
+[yanilleholeout]
+name=Hole
+desc=A hole
+model=outdoorfurniture_hole
+
+[darkcave_escape]
+name=Climbing rope
+desc=I hope this leads the way out.
+model=outdoorfurniture_rope
+op1=Climb
+
+[shuttanothchest1]
+name=Chest
+desc=I wonder what's inside it?
+model=furniture_chestclosed
+active=yes
+op1=Open
+forceapproach=north
+
+[shuttanothchest2]
+name=Chest
+desc=I wonder what's inside it?
+model=furniture_chestclosed
+active=yes
+op1=Open
+forceapproach=north
+
+[opentanothchest1]
+model=furniture_chestopen
+op1=Close
+forceapproach=north
+active=no
+
+[opentanothchest2]
+model=furniture_chestopen
+active=no
+op1=Close
+forceapproach=north
+
+[tanothjump1]
+name=Rock
+desc=You can probably jump over from here.
+model=mine_rocks2
+op1=Jump-From
+
+[tanothjump2]
+name=Rock
+desc=You can probably jump over from here.
+model=mine_rocks2
+op1=Jump-From
+
+[ganothbattlement]
+name=Battlement
+desc=A low wall is blocking your path.
+model=quest_ogrerock
+active=yes
+blockrange=no
+op1=Climb-over
+
+[towerladder]
+name=Ladder
+desc=This goes up!
+model=furniture_ladder
+op1=Climb-up
+
+[tobanblock]
+name=Battlement
+desc=A low wall is blocking your path.
+model=crumbly_low
+op1=Climb_over
+active=yes
+
+[darkcaverock]
+name=Rock
+model=mine_rocks1
+op1=Search

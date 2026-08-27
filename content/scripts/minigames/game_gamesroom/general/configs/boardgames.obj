@@ -1,0 +1,8 @@
+[wearable_stool_white]
+name=Stool
+desc=A comfy stool.
+cost=800
+model=inv_hatchet
+manwear=human_weapons_stool_white,0
+womanwear=human_weapons_stool_white,6
+members=yes

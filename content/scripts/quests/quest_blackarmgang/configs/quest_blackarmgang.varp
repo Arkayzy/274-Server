@@ -1,0 +1,6 @@
+// todo: one day these two ids need to be flipped for correctness, we have them swapped
+[blackarmgang]
+scope=perm
+
+[phoenixgang]
+scope=perm
