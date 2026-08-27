@@ -84,8 +84,8 @@ for (let i = 0; i < 99; i++) {
     levelExperience[i] = Math.floor(acc / 4) * 10;
 }
 
-console.log('Level 2 threshold:', levelExperience[0]);
-console.log('Level 2 displayed XP:', levelExperience[0] / 10);
+//console.log('Level 2 threshold:', levelExperience[0]);
+//console.log('Level 2 displayed XP:', levelExperience[0] / 10);
 
 export function getLevelByExp(exp: number) {
     for (let i = 98; i >= 0; i--) {
@@ -1845,6 +1845,19 @@ export default class Player extends PathingEntity {
             this.levels[stat] = getLevelByExp(this.stats[stat]);
         }
         this.baseLevels[stat] = getLevelByExp(this.stats[stat]);
+
+        // console.log({
+        //     stat,
+        //     addedXp: xp,
+        //     multiplier: multi,
+        //     totalXp: this.stats[stat],
+        //     displayedXp: this.stats[stat] / 10,
+           // level2Threshold: levelExperience[0],
+           // level2DisplayedXp: levelExperience[0] / 10,
+          //  currentLevel: this.levels[stat],
+           // baseLevel: this.baseLevels[stat],
+          //  calculatedLevel: getLevelByExp(this.stats[stat])
+       // });
 
         if (this.baseLevels[stat] > before) {
             if (this.levels[stat] < before) {
